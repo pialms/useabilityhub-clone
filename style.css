@@ -94,7 +94,6 @@ ul {
   color: var(--accent-color);
 }
 
-
 /* Top Banner */
 
 .top-banner {
@@ -155,7 +154,7 @@ header {
 /* Companies Section */
 
 .companies-header {
-  color: var(--primary-text-color) ;
+  color: var(--primary-text-color);
   text-align: center;
   margin-block: 30px;
 }
@@ -165,12 +164,38 @@ header {
   gap: 30px;
 }
 
-.logos img:nth-child(6){
+.logos img:nth-child(6) {
   height: 50px;
 }
 
-.logo{
+.logo {
   height: 46px;
 }
 
+/* Features Section */
 
+.features-section {
+  padding: 40px var(--padding-inline-section) 0;
+}
+
+.features-heading {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.features-area {
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.features-card {
+  flex-direction: column;
+  max-width: 30%;
+  gap: 10px;
+  text-align: center;
+}
+
+.features-card img {
+  width: 12%;
+}
